@@ -1,0 +1,14 @@
+/home/moa/Desktop/c#/bin/Debug/net10.0/c#
+/home/moa/Desktop/c#/bin/Debug/net10.0/c#.deps.json
+/home/moa/Desktop/c#/bin/Debug/net10.0/c#.runtimeconfig.json
+/home/moa/Desktop/c#/bin/Debug/net10.0/c#.dll
+/home/moa/Desktop/c#/bin/Debug/net10.0/c#.pdb
+/home/moa/Desktop/c#/obj/Debug/net10.0/c#.GeneratedMSBuildEditorConfig.editorconfig
+/home/moa/Desktop/c#/obj/Debug/net10.0/c#.AssemblyInfoInputs.cache
+/home/moa/Desktop/c#/obj/Debug/net10.0/c#.AssemblyInfo.cs
+/home/moa/Desktop/c#/obj/Debug/net10.0/c#.csproj.CoreCompileInputs.cache
+/home/moa/Desktop/c#/obj/Debug/net10.0/c#.dll
+/home/moa/Desktop/c#/obj/Debug/net10.0/refint/c#.dll
+/home/moa/Desktop/c#/obj/Debug/net10.0/c#.pdb
+/home/moa/Desktop/c#/obj/Debug/net10.0/c#.genruntimeconfig.cache
+/home/moa/Desktop/c#/obj/Debug/net10.0/ref/c#.dll
