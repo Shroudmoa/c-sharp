@@ -1,9 +1,87 @@
 ﻿Console.WriteLine("mova test ---------------------");
-//IHK be like =>
-//- **Syntaxfehler:** Verstoß gegen die Grammatik der Programmiersprache; Compiler meldet Fehler. Beispiel: `int x = "Hallo";` (Typkonflikt) oder fehlendes Semikolon `int x = 5`.
-// - **Semantikfehler:** Code ist syntaktisch korrekt, aber die Logik ist falsch; Compiler meldet nichts, Laufzeitverhalten ist falsch. Beispiel: `RAM2[i*2+1] = i;` statt `i+1` – Programm läuft, liefert aber falsche Werte.
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/////////////
+int[] werte = new int[] { 4, 6, 42, 553, 342, 2 };
+
+int max = werte[0];
+
+for (int i = 1; i < werte.Length; i++) {
+  if (werte[i] > max) {
+    max = werte[i];
+  }
+}
+
+
+int[] array2 = new int[] {22, 33, 44, 55, 55};
+int min = array2[0];
+
+for (int i = 1; i > array2.Length; i++) {
+
+  if (array2[i] < min) {
+    min = array2[i];
+  }
+}
+
+Console.WriteLine("ur min is" +  min);
+
+
+/////////////////
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+////////////////////////777L
+///
 int[] Cpuload = new int[] {23, 34, 4, 22, 33, 11};
 int summe = 0;
 /////////////
@@ -22,20 +100,21 @@ Console.WriteLine(summe);
 Console.WriteLine(mit);
 
 ///////////////////////////////
-Console.WriteLine("TU");
-
-int[] array1 = new int[] { 23, 34, 12, 33, 5 };
-int x = 23;
-
-for (int i = 0; i < array1.Length; i++)
-{
-    x -= array1[i];
-}
-
-Console.WriteLine("dick" + x);
 
 
-// Console.WriteLine("test");
-//
-// Console.WriteLine("t");
-// Console.WriteLine("test2");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
