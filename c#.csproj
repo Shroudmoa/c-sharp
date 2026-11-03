@@ -8,4 +8,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <!-- beispiele/ contains standalone example programs, not part of this app -->
+  <ItemGroup>
+    <Compile Remove="beispiele/**/*.cs" />
+  </ItemGroup>
+
 </Project>
