@@ -1,120 +1,36 @@
-﻿Console.WriteLine("mova test ---------------------");
+﻿// Menue: startet die einzelnen Lektionen aus dem Ordner Lessons/
+// Jede Lektion ist eine static class mit einer public static void Run().
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/////////////
-int[] werte = new int[] { 4, 6, 42, 553, 342, 2 };
-
-int max = werte[0];
-
-for (int i = 1; i < werte.Length; i++) {
-  if (werte[i] > max) {
-    max = werte[i];
-  }
-}
-
-
-int[] array2 = new int[] {22, 33, 44, 55, 55};
-int min = array2[0];
-
-for (int i = 1; i > array2.Length; i++) {
-
-  if (array2[i] < min) {
-    min = array2[i];
-  }
-}
-
-Console.WriteLine("ur min is" +  min);
-
-
-/////////////////
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-////////////////////////777L
-///
-int[] Cpuload = new int[] {23, 34, 4, 22, 33, 11};
-int summe = 0;
-/////////////
-for (int i = 0; i < Cpuload.Length; i++)
+while (true)
 {
+    Console.WriteLine();
+    Console.WriteLine("1) Mittelwert berechnen");
+    Console.WriteLine("2) Max und Min im Array");
+    Console.WriteLine("0) Sandbox");
+    Console.Write("Auswahl (Enter = Ende): ");
 
-    summe += Cpuload[i];
-  //  Console.WriteLine(summe);
+    string? eingabe = Console.ReadLine();
 
-  }
-////////////////////////////////////////////////////7777
-double mit = (double) summe / Cpuload.Length;
+    if (string.IsNullOrWhiteSpace(eingabe))
+    {
+        break;
+    }
 
-Console.WriteLine("Ergebnisse");
-Console.WriteLine(summe);
-Console.WriteLine(mit);
+    switch (eingabe)
+    {
+        case "1":
+            L01Mittelwert.Run();
+            break;
+        case "2":
+            L02MaxMin.Run();
+            break;
+        case "0":
+            L00Sandbox.Run();
+            break;
+        default:
+            Console.WriteLine("Unbekannte Auswahl: " + eingabe);
+            break;
+    }
+}
 
-///////////////////////////////
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Console.WriteLine("Ende.");
