@@ -1,8 +1,3 @@
-// L01 - Mittelwert eines Arrays
-// Zeigt: Array aufbauen, mit for-Schleife durchlaufen, Summe bilden,
-//        Division mit (double)-Cast (sonst ganzzahlige Division!)
-// Erwartet: Summe 127, Mittelwert 21,1666...
-
 static class L01Mittelwert
 {
     public static void Run()
@@ -16,7 +11,6 @@ static class L01Mittelwert
             summe += cpuload[i];
         }
 
-        // Cast VOR der Division, sonst rechnet C# ganzzahlig (127 / 6 = 21)
         double mittelwert = (double)summe / cpuload.Length;
 
         Console.WriteLine("Summe:      " + summe);

@@ -1,22 +1,16 @@
-﻿// Menue: startet die einzelnen Lektionen aus dem Ordner Lessons/
-// Jede Lektion ist eine static class mit einer public static void Run().
-
+﻿
 while (true)
 {
-    // Console.WriteLine("\nava 0.1.0");
-    // string [] menu = {"1) mittwert","2", "3", "0"};
-    //
-    // foreach (var item in menu){
-    //     Console.WriteLine(item);
-    // }
     Console.WriteLine(@"
         ava 0.0.1
 1) mittwert
 2) idk 
 3) 50 ?
+4) idk
 0) sandbox
         ");
-    Console.Write("Auswahl (Enter = Ende): ");
+    Console.Write("ur input papi ? Enter = break: ");
+
 
 
 //////////////////////////////////////////
@@ -32,18 +26,34 @@ var menu = new Dictionary<string, Action>
   {"1", L01Mittelwert.Run },
   { "2", L02MaxMin.Run },
   { "0", L00Sandbox.Run },
-  { "3", L03test.Run }
+  { "3", L03test.Run },
+  { "4", L4.Run },
+
 };
+////////////////////////////////////////////////////////
 if (menu.TryGetValue(eingabe, out var action))
 {
     Console.Clear();
-    action(); // Führt die Methode aus
+    action();
 }
 else
 {
-    Console.WriteLine("Unbekannte Auswahl: " + eingabe);
+    Console.WriteLine("404 bro " + eingabe);
 }
 }
+///////////////////////////////////////////////////////
+Console.WriteLine("Ava over and out");
+
+
+///////////////#####################################################################################/
+    // Console.WriteLine("\nava 0.1.0");
+    // string [] menu = {"1) mittwert","2", "3", "0"};
+    //
+    // foreach (var item in menu){
+    //     Console.WriteLine(item);
+    // }
+
+
 ////////////////////////////////
 //     switch (eingabe)
 //     {
@@ -65,4 +75,4 @@ else
 //     }
 // }
 //
-Console.WriteLine("goooooddddddbyyyyy");
+

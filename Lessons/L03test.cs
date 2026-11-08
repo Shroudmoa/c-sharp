@@ -1,4 +1,3 @@
-
 static class L03test
 {
     public static void Run()
