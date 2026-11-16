@@ -7,6 +7,9 @@ while (true)
 2) idk 
 3) 50 ?
 4) idk
+-6
+-7
+bub
 0) sandbox
         ");
     Console.Write("ur input papi ? Enter = break: ");
@@ -28,7 +31,13 @@ var menu = new Dictionary<string, Action>
   { "0", L00Sandbox.Run },
   { "3", L03test.Run },
   { "4", L4.Run },
-  { "5", L5.Run }
+  { "5", L5.Run },
+  { "6", L6.Run },
+
+  { "7", L7.Run },
+  { "bub", bub.Run }
+
+
 
 
 };
